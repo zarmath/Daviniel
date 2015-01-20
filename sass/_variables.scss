@@ -1,0 +1,52 @@
+//
+// Variables
+// --------------------------------------------------
+
+// Color Scheme 
+$color-base: 			#B12340 !default;
+$color-primary: 		#094157 !default;
+$color-secondary: 		#25C1FD !default;
+$color-cta: 			#BEB738 !default;
+$color-extra: 			#640A1C !default;
+
+$color-cta-extra: 		#CF6833 !default;
+$color-light:           #f5f5f5 !default;
+$color-header: 			#393939 !default;
+
+
+// Light and Dark
+// -------------------------
+$dark:                 #000D11 !default;
+$light:                 #fff !default;
+
+// Typography
+// -------------------------
+$textColor:             #333 !default;
+$googleFont:            Lato, Arial, sans-serif !default; // Can use multiple fonts with a comma. Cabin, Open Sans, etc...
+$googleFontWeight:      400 !default; // 400 or 700
+$sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$serifFontFamily:       Georgia, "Times New Roman", Times, serif !default;
+$baseFontFamily:        $sansFontFamily !default;
+
+
+// Layout
+// -------------------------
+$total-width: 1140px;
+$content-sidebar-width: 920px;
+$sidebar-sidebar-content-width: 520px;
+$content-width: 740px;
+$sidebar-primary-width: 360px;
+$sidebar-secondary-width: 180px;
+
+
+// Reutilizables
+// -------------------------
+
+@mixin box{
+	padding: 9px 10px 9px 10px; 
+	border-left: 4px solid #7d4235;
+	margin: 0px 20px 5px 10px;
+	ul{
+		margin-bottom: 2px !important; 
+	}
+}

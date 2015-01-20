@@ -1,0 +1,104 @@
+/*
+	Theme Name: Daviniel
+	Description: Tema para el sitio web Hexafutbol.
+	Author: Fernando Cruz
+	Author URI: http://montatublog.com/
+	Version: 0.0.1
+ 
+	Tags: responsive, genesis 
+	Template: genesis
+	Template Version: 2.1.2
+ 
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php
+*/
+
+
+
+// Core variables and mixins
+@import "variables"; // Modify this for custom colors, font-sizes, etc
+
+
+/*
+Defaults
+---------------------------------------------------------------------------------------------------- */
+@import "01defaults";
+
+
+/* Typographical Elements
+--------------------------------------------- */
+@import "02typography";
+
+
+/* Headings
+--------------------------------------------- */
+@import "03headings";
+
+/* Elements
+--------------------------------------------- */
+@import "04elements";
+
+/*
+Structure and Layout
+---------------------------------------------------------------------------------------------------- */
+@import "05layout";
+
+/*
+Common Classes
+---------------------------------------------------------------------------------------------------- */
+
+/* WordPress
+--------------------------------------------- */
+@import "06wordpress";
+/* Genesis
+--------------------------------------------- */
+@import "07genesis";
+/* Header
+--------------------------------------------- */
+@import "08header";
+
+/*
+Site Navigation
+---------------------------------------------------------------------------------------------------- */
+@import "09navigation";
+
+/*
+Content Area
+---------------------------------------------------------------------------------------------------- */
+@import "10content-area";
+
+/* Pagination
+--------------------------------------------- */
+@import "11pagination";
+
+/* Comments
+--------------------------------------------- */
+@import "12comments";
+
+
+/*
+Sidebars
+---------------------------------------------------------------------------------------------------- */
+@import "13sidebars";
+
+
+/*
+Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+@import "14footer-widgets";
+
+/*
+Site Footer
+---------------------------------------------------------------------------------------------------- */
+@import "15site-footer";
+
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+@import "16media-queries";
+
+
+/*
+Mis estilos
+---------------------------------------------------------------------------------------------------- */
+@import "17MisEstilos";

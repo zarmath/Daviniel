@@ -1,0 +1,29 @@
+/* BOX  */
+.box-blue {
+	background: #d9edf7;
+	border-color: #bce8f1;
+	color: #3a87ad;
+	@include box;
+}
+
+.box-red {
+	background: #f2dede;
+	border-color: #993719;
+	color: #b94a48;
+	@include box;
+}
+
+.box-grey {
+	background: #e4e3e3;
+	border-color: #686463;
+	color: #2e2322;
+	@include box;
+	
+}
+
+.box-green {
+	background: #dff0d8;
+	border-color: #396517;
+	color: #468847;
+	@include box;
+}
