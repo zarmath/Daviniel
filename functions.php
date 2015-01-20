@@ -3,13 +3,14 @@
 include_once( get_template_directory() . '/lib/init.php' );
 
 //* Child theme (do not remove)
-define( 'CHILD_THEME_NAME', 'Genesis Sample Theme' );
+define( 'CHILD_THEME_NAME', 'Daviniel' );
 define( 'CHILD_THEME_URL', 'http://www.studiopress.com/' );
-define( 'CHILD_THEME_VERSION', '2.0.1' );
+define( 'CHILD_THEME_VERSION', '2.1.2' );
 
 //* Enqueue Lato Google font
 add_action( 'wp_enqueue_scripts', 'genesis_sample_google_fonts' );
 function genesis_sample_google_fonts() {
+	wp_enqueue_style( 'style', CHILD_URL . '/css/style-min.css', array(), PARENT_THEME_VERSION );
 	wp_enqueue_style( 'google-font-lato', '//fonts.googleapis.com/css?family=Lato:300,700', array(), CHILD_THEME_VERSION );
 }
 
