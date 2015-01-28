@@ -8,6 +8,30 @@ Footer Widgets
 	clear: both;
 	padding: 40px 0 16px;
 	padding: 4rem 0 1.6rem;
+	a {
+		border-bottom: 1px solid #666;
+		color: #999;
+		&:hover {
+			color: #ddd;
+		}
+
+	}
+	.widget {
+		margin-bottom: 24px;
+		margin-bottom: 2.4rem;
+	}
+	.widget-title {
+		color: #fff;
+	}
+	li {
+		list-style-type: none;
+		margin-bottom: 6px;
+		margin-bottom: 0.6rem;
+		word-wrap: break-word;
+	}
+	.search-form input:focus {
+		border: 1px solid #ddd;
+	}
 }
 
 .footer-widgets-1,
@@ -32,33 +56,3 @@ Footer Widgets
 .footer-widgets-3 {
 	float: right;
 }
-
-.footer-widgets a {
-	border-bottom: 1px solid #666;
-	color: #999;
-}
-
-.footer-widgets a:hover {
-	color: #ddd;
-}
-
-.footer-widgets .widget {
-	margin-bottom: 24px;
-	margin-bottom: 2.4rem;
-}
-
-.footer-widgets .widget-title {
-	color: #fff;
-}
-
-.footer-widgets li {
-	list-style-type: none;
-	margin-bottom: 6px;
-	margin-bottom: 0.6rem;
-	word-wrap: break-word;
-}
-
-.footer-widgets .search-form input:focus {
-	border: 1px solid #ddd;
-}
-
