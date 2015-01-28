@@ -4,13 +4,14 @@ Site Header
 
 .site-header {
 	background-color: #fff;
+	.wrap {
+		padding: 40px 0;
+		padding: 4rem 0;
+	}
+
 }
 
-.site-header .wrap {
-	padding: 40px 0;
-	padding: 4rem 0;
-}
-
+.site-header 
 /* Title Area
 --------------------------------------------- */
 
@@ -23,8 +24,20 @@ Site Header
 	width: 320px;
 }
 
-.header-image .title-area {
-	padding: 0;
+.header-image{
+	.title-area {
+		padding: 0;
+	}
+	/* Logo, hide text */
+	.site-header .wrap {
+		background: url(../images/logo.png) no-repeat left;
+		padding: 0;
+	}
+	.site-title a {
+		float: left;
+		min-height: 164px;
+		width: 100%;
+	}
 }
 
 .site-title {
@@ -63,18 +76,7 @@ Site Header
 	text-indent: -9999px;
 }
 
-/* Logo, hide text */
 
-.header-image .site-header .wrap {
-	background: url(images/logo.png) no-repeat left;
-	padding: 0;
-}
-
-.header-image .site-title a {
-	float: left;
-	min-height: 164px;
-	width: 100%;
-}
 /* Widget Area
 --------------------------------------------- */
 
